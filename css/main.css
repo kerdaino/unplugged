@@ -146,26 +146,28 @@ footer .social p {
 }
 
 /* ------------------------Mobile styles for homepage----------------------- */
-header{
+header {
   padding: 15px 0px;
 }
-.header-divider{
+
+.header-divider {
   width: 60%;
 }
-header nav{
+
+header nav {
   width: 60%;
   margin-left: 25px;
 }
 
-header nav ul{
+header nav ul {
   width: 50%;
 }
 
-header nav ul li{
+header nav ul li {
   margin: 20px;
 }
 
-.content-wrapper{
+.content-wrapper {
   width: 90%;
 }
 
@@ -175,9 +177,11 @@ header nav ul li{
   flex-flow: row wrap;
   margin-left: 20px;
 }
-p{
+
+p {
   /* margin: 0px; */
 }
+
 aside {
   display: flex;
   justify-content: flex-start;
@@ -185,6 +189,7 @@ aside {
   flex-flow: row wrap;
   margin-left: 20px;
 }
+
 /* 
 aside h3{
   margin-left: 0%;
@@ -218,7 +223,7 @@ aside h3{
   flex-flow: row wrap;
 }
 
-.reviews h3{
+.reviews h3 {
   width: 50%;
 }
 
@@ -355,17 +360,13 @@ aside h3{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media (min-width:768px) {
+  /* TABLET STYLES HERE */
 }
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media (min-width:1200px) {
+  /* DESKTOP STYLES HERE */
 }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
