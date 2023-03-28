@@ -116,6 +116,23 @@ header nav ul {
   justify-content: space-around;
 }
 
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -129,20 +146,53 @@ footer .social p {
 }
 
 /* ------------------------Mobile styles for homepage----------------------- */
+header{
+  padding: 15px 0px;
+}
+.header-divider{
+  width: 60%;
+}
+header nav{
+  width: 60%;
+  margin-left: 25px;
+}
+
+header nav ul{
+  width: 50%;
+}
+
+header nav ul li{
+  margin: 20px;
+}
+
+.content-wrapper{
+  width: 90%;
+}
+
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin-left: 20px;
 }
-
+p{
+  /* margin: 0px; */
+}
 aside {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
+  margin-left: 20px;
 }
+/* 
+aside h3{
+  margin-left: 0%;
+} */
 
-.form-description {}
+.form-description {
+  width: 40%;
+}
 
 .form-description .form {}
 
@@ -158,6 +208,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  margin-left: 40px;
 }
 
 .reviews {
@@ -165,6 +217,11 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
 }
+
+.reviews h3{
+  width: 50%;
+}
+
 
 /* --------------mobile styles for about page------------------------------ */
 .mission {
