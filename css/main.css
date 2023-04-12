@@ -339,7 +339,38 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media (min-width:768px) {}
+@media (min-width:768px) {
+/* --------------------------------tablet styles------------------------------------------------------ */
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
+/* ------------------Homepage styles for tablet--------------------------- */
+  header{
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper{
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+   .header-divider {
+    display: flex;
+  }
+}
+
+
 
 @media (min-width:1200px) {}
 
