@@ -97,6 +97,66 @@ textarea {
      Author's custom styles
      ========================================================================== */
 
+/* ----------------------GENERAL mobile STYLES------------------------------------- */
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,ol{
+  list-style: none;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+a{
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+h3,h4{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+p{
+  font-size: 0.875em;
+  line-height: 18px;
+}
+
+img{
+
+}
+
+figure{
+
+}
+
+address{
+  font-style: normal;
+}
+
+.reviews .faq h2{
+  line-height: 30px;
+}
+
+.faq-content{
+  line-height: 24px;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -142,11 +202,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  list-style: none;
-}
-
-header nav ul li a {
-  text-decoration: none;
 }
 
 footer {
@@ -388,6 +443,35 @@ aside {
   /*Tablet styles here*/
 
   /* General styles */
+
+  h1{
+    font-size: 3em;
+    line-height: 48px;
+  }
+
+  h2{
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
+  h3{
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
+  footer, footer .contact h4{
+    font-size: 1.5em;
+  }
+
+  footer p{
+    line-height: 18px;
+  }
+
+  .faq h4,.faq p{
+    font-size: 0.875em;
+    line-height: 15.75px;
+  }
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -523,6 +607,31 @@ aside {
   /*Desktop styles here*/
 
   /* General styles */
+  h1{
+    font-size: 3.75em;
+  }
+
+  h2{
+    font-size: 2.25em;
+  }
+
+  .faq h2,.mission h2{
+    font-size: 3em;
+  }
+
+  h3,h4{
+    font-size: 1.875em;
+  }
+
+  .faq h4,.faq p{
+    font-size: 1.125em;
+    line-height: 18px;
+  }
+
+  p{
+    font-size: 1.125em;
+    line-height: 24px;
+  }
 
   .content-wrapper {
     max-width: 960px;
