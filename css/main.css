@@ -165,12 +165,13 @@ input {
 }
 
 .features i {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .social-icons {
   font-size: 1.3125em;
 }
+
 
 address {
   font-style: normal;
@@ -276,17 +277,24 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+footer .social h4 {
+  margin-left: 60px;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #527158;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 40px;
 }
 
 footer .copyright {
