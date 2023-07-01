@@ -162,6 +162,8 @@ input {
 
 .features .fontawesome-icon {
   font-size: 3.75em;
+  display: flex;
+  justify-content: center;
 }
 
 .features i {
@@ -175,6 +177,11 @@ input {
 
 address {
   font-style: normal;
+  text-align: center;
+}
+
+.faq p{
+  text-align: justify;
 }
 
 .reviews .faq h2 {
@@ -265,7 +272,8 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  margin: 2px;
+  padding: 5px;
 }
 
 footer .content-wrapper {
@@ -275,6 +283,7 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 footer .social h4 {
@@ -387,6 +396,9 @@ aside {
   background-color: #527158;
 }
 
+#about p{
+  text-align: justify;
+}
 .contact-section {
   display: flex;
   justify-content: center;
@@ -558,9 +570,9 @@ aside {
     font-size: 1.5em;
   }
 
-  footer p {
+  /* footer p {
     line-height: 18px;
-  }
+  } */
 
   .faq h4,
   .faq p {
@@ -650,6 +662,10 @@ aside {
     margin: 100px 0;
   }
 
+  /* footer p{
+    margin: 2px;
+  } */
+
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -658,6 +674,11 @@ aside {
 
   footer .contact {
     margin-bottom: 0;
+    text-align: center;
+    margin-right: 30px;
+    padding-right: 20px;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   footer .copyright {
@@ -689,6 +710,10 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .contact-content p{
+    text-align: justify;
   }
 
   /* ==========================================================================
@@ -767,9 +792,6 @@ aside {
   }
 
   /* features */
-  .features h2 {
-    width: 550px;
-  }
 
   .features article {
     flex-basis: 33%;
@@ -777,14 +799,18 @@ aside {
 
   /* Reviews */
   .reviews article div {
-    width: 300px;
+    width: 400px;
+  }
+
+  .reviews article div h3{
+    width: 100%;
   }
 
   /* ---------------About page-------------------- */
-  .mission h2,
+  /* .mission h2,
   .contact-section .content-wrapper h2 {
     width: 370px;
-  }
+  } */
 
   /* -----------------FAQ PAGE---------------------- */
   .faq h2 {
