@@ -570,10 +570,6 @@ aside {
     font-size: 1.5em;
   }
 
-  /* footer p {
-    line-height: 18px;
-  } */
-
   .faq h4,
   .faq p {
     font-size: 0.875em;
@@ -661,10 +657,6 @@ aside {
     width: 65%;
     margin: 100px 0;
   }
-
-  /* footer p{
-    margin: 2px;
-  } */
 
   .footer-content {
     display: flex;
@@ -769,7 +761,6 @@ aside {
 
   .content-wrapper {
     max-width: 960px;
-    /* margin: 100px 0; */
   }
 
   header img {
@@ -805,12 +796,6 @@ aside {
   .reviews article div h3{
     width: 100%;
   }
-
-  /* ---------------About page-------------------- */
-  /* .mission h2,
-  .contact-section .content-wrapper h2 {
-    width: 370px;
-  } */
 
   /* -----------------FAQ PAGE---------------------- */
   .faq h2 {
